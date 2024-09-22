@@ -13,7 +13,7 @@ This project implements a genetic algorithm to solve the Job Shop Scheduling Pro
   - Crossover and mutation rates (`rate_crossover`, `rate_mutation`)
   - Simulated annealing parameters (`temperature_0`, `k`, `min_temperature`)
   - Processing and setup time tables
-  - Selection and mutation configurations (e.g., `random_selection', 'selection_best_worst', 'selection_k_tournament`, `mutation_best`, `mutation_worst`)
+  - Selection and mutation configurations (e.g., `random_selection', 'selection_best_worst', 'selection_k_tournament`, `mutation_best`, `mutation_worst`,  `mutation_random`)
     
 - **`genetic_algorithm.py`**: Contains all the methods and functions used by the genetic algorithm to perform operations such as selection, crossover, mutation, and fitness evaluation.
 - **`main.py`**: The core of the genetic algorithm, where the main loop of the algorithm is executed, and the different methods are combined to find the best solution.
